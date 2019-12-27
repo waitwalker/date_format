@@ -1,6 +1,6 @@
 import 'package:date_format/date_format.dart';
 
-class EnglishLocale implements Locale {
+class EnglishLocale implements LocaleClass {
   const EnglishLocale();
 
   final List<String> monthsShort = const [

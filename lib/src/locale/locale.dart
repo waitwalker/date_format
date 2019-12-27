@@ -1,6 +1,6 @@
 export 'english.dart';
 
-abstract class Locale {
+abstract class LocaleClass {
   List<String> get monthsShort;
 
   List<String> get monthsLong;

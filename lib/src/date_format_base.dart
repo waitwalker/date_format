@@ -224,7 +224,7 @@ const String z = 'z';
 const String Z = 'Z';
 
 String formatDate(DateTime date, List<String> formats,
-    {Locale locale = const EnglishLocale()}) {
+    {LocaleClass locale = const EnglishLocale()}) {
   final sb = StringBuffer();
 
   for (String format in formats) {
